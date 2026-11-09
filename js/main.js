@@ -4,7 +4,7 @@ const persona = { //creamos objeto sencillo
     nombre: "Aintzane",
     correo: "blabla@blabla.com"
 };
-const error = false; //ponemos en true para probar el posible error del cacht
+const error = true; //ponemos en true para probar el posible error del cacht
 
 boton.addEventListener("click", () => {
     obtenerUsuario()
